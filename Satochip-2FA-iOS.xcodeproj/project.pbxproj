@@ -935,7 +935,7 @@
 		0D8B4A982A10B48F00E9E429 /* eip155-2415.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B47172A10B48400E9E429 /* eip155-2415.json */; };
 		0D8B4A992A10B48F00E9E429 /* eip155-11437.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B47182A10B48500E9E429 /* eip155-11437.json */; };
 		0D8B4A9A2A10B48F00E9E429 /* eip155-9339.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B47192A10B48500E9E429 /* eip155-9339.json */; };
-		0D8B4A9C2A123C2E00E9E429 /* eip155-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B4A9B2A123C2C00E9E429 /* eip155-5.json */; };
+		0D8B4A9F2A1E497B00E9E429 /* eip155-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B4A9E2A1E497A00E9E429 /* eip155-5.json */; };
 		0DB03FF029E8039F002E56BD /* Satochip_2FA_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB03FEF29E8039F002E56BD /* Satochip_2FA_iOSApp.swift */; };
 		0DB03FF229E8039F002E56BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB03FF129E8039F002E56BD /* ContentView.swift */; };
 		0DB03FF429E803A3002E56BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB03FF329E803A3002E56BD /* Assets.xcassets */; };
@@ -1896,8 +1896,8 @@
 		0D8B47172A10B48400E9E429 /* eip155-2415.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eip155-2415.json"; sourceTree = "<group>"; };
 		0D8B47182A10B48500E9E429 /* eip155-11437.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eip155-11437.json"; sourceTree = "<group>"; };
 		0D8B47192A10B48500E9E429 /* eip155-9339.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eip155-9339.json"; sourceTree = "<group>"; };
-		0D8B4A9B2A123C2C00E9E429 /* eip155-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "eip155-5.json"; path = "../eip155-5.json"; sourceTree = "<group>"; };
 		0D8B4A9D2A1264BF00E9E429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D8B4A9E2A1E497A00E9E429 /* eip155-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eip155-5.json"; sourceTree = "<group>"; };
 		0DB03FEC29E8039F002E56BD /* Satochip-2FA-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Satochip-2FA-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB03FEF29E8039F002E56BD /* Satochip_2FA_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satochip_2FA_iOSApp.swift; sourceTree = "<group>"; };
 		0DB03FF129E8039F002E56BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1999,7 +1999,7 @@
 				0D8B43B72A10B3FB00E9E429 /* eip155-2.json */,
 				0D8B43DB2A10B3FF00E9E429 /* eip155-3.json */,
 				0D8B43AC2A10B3F900E9E429 /* eip155-4.json */,
-				0D8B4A9B2A123C2C00E9E429 /* eip155-5.json */,
+				0D8B4A9E2A1E497A00E9E429 /* eip155-5.json */,
 				0D8B45652A10B42F00E9E429 /* eip155-6.json */,
 				0D8B45602A10B42F00E9E429 /* eip155-7.json */,
 				0D8B449E2A10B41800E9E429 /* eip155-8.json */,
@@ -3971,7 +3971,7 @@
 				0D8B48DC2A10B48B00E9E429 /* eip155-1286.json in Resources */,
 				0D8B47C42A10B48700E9E429 /* eip155-60103.json in Resources */,
 				0D8B4A202A10B48E00E9E429 /* eip155-100007.json in Resources */,
-				0D8B4A9C2A123C2E00E9E429 /* eip155-5.json in Resources */,
+				0D8B4A9F2A1E497B00E9E429 /* eip155-5.json in Resources */,
 				0D8B4A6F2A10B48F00E9E429 /* eip155-32.json in Resources */,
 				0D8B4A5E2A10B48F00E9E429 /* eip155-16688.json in Resources */,
 				0D8B493D2A10B48C00E9E429 /* eip155-3141.json in Resources */,
@@ -4207,7 +4207,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Satochip-2FA-iOS/Satochip_2FA_iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Satochip-2FA-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = F75Z9LY9DQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4247,7 +4247,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Satochip-2FA-iOS/Satochip_2FA_iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Satochip-2FA-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = F75Z9LY9DQ;
 				ENABLE_HARDENED_RUNTIME = YES;
